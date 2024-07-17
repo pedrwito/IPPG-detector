@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from IppgSignalObtainer import IppgSignalObtainer
 import numpy as np
 # Specify the path to the MP4 video file
-video_path = 'P1H1_edited.avi'
+video_path = 'C:/Users/pedro/Documents/IPPG Virtual Sense/ippg-git/P1H1_edited.avi'
 fs = 30
 freqs, [fft_red_series, fft_green_series, fft_blue_series] = IppgSignalObtainer.fftOfIppgFromVideo(video_path , fs)
 
